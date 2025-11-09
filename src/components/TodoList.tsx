@@ -97,24 +97,18 @@ export function TodoList({ focused }: TodoListProps) {
 							}}
 						>
 							{todo.completed ? (
-								<text
-									fg={todo.completed ? "green" : "yellow"}
-									style={{ marginRight: 1 }}
-								>
-									☑
+								<text fg="green" style={{ marginRight: 1 }}>
+									✅
 								</text>
 							) : (
-								<text
-									fg={todo.completed ? "green" : "yellow"}
-									style={{ marginRight: 1 }}
-								>
-									☐
+								<text fg="yellow" style={{ marginRight: 1 }}>
+									☑️
 								</text>
 							)}
 
 							{todo.completed ? (
-								<text fg="brightBlack">
-									<s>{todo.text}</s>
+								<text fg="gray">
+									<i>{todo.text}</i>
 								</text>
 							) : (
 								<text fg="white">{todo.text}</text>
