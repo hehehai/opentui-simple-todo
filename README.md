@@ -5,7 +5,7 @@ A beautiful terminal-based TODO manager built with OpenTUI and React.
 
 ![TODO TUI App](https://img.shields.io/badge/TUI-OpenTUI-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![React](https://img.shields.io/badge/React-19-blue)
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/12692552/511827575-fff4cbe7-2d4a-430b-9c34-53c9ec6673b2.gif" width="400" height="400">
+<img src="./docs/demo.gif" width="400" height="400">
 
 </div>
 
